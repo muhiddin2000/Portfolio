@@ -336,7 +336,10 @@ export default {
         },
 
         async getme(){
-            
+            await axios.get(`${this.url}/visitors/`).then(res => {
+                this.number = res.data.count  
+                
+              })
             await axios.get(`${this.url}/profile/`).then(res => {
                 this.me = res.data.results[0]
                 

@@ -75,7 +75,7 @@
             </div>
 
             <div class="box">
-                <span>{{me.projects}}</span>
+                <span>{{me.project}}</span>
                 <h3>loyihalar</h3>
             </div>
 

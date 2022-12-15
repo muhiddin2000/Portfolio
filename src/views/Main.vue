@@ -336,10 +336,7 @@ export default {
         },
 
         async getme(){
-            await axios.get(`https://portfoliouz.pythonanywhere.com/api/v1/visitor`).then(res => {
-                this.number = res.data.visitors
-                
-              })
+            
             await axios.get(`${this.url}/profile/`).then(res => {
                 this.me = res.data.results[0]
                 

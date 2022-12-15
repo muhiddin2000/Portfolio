@@ -336,7 +336,7 @@ export default {
         },
 
         async getme(){
-            await axios.get(`${this.url}/visitors/`).then(res => {
+            await axios.get(`${this.url}visitors/`).then(res => {
                 this.number = res.data.count  
                 
               })

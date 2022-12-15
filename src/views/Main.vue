@@ -233,7 +233,6 @@ III.Frontend Framewrok: Javascript,Vuejs</p>
 
 </section>
 
-<!-- contact section ends -->
 
 <!-- scroll top button  -->
 
@@ -252,7 +251,7 @@ export default {
     },
     data(){
         return{
-            url:'http://127.0.0.1:8000',
+            url:'https://muhiddin.pythonanywhere.com/',
             
             me:{
                 
